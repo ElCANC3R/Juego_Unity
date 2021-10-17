@@ -56,7 +56,7 @@ public class DeivenMove : MonoBehaviour
         if(transform.localScale.x == 1.0f) direction = Vector3.right;
         else  direction = Vector3.left;
 
-       GameObject bullet = Instantiate(BulletPrefav, transform.position + direction * 0.1f, Quaternion.identity); 
+       GameObject bullet = Instantiate(BulletPrefav, transform.position + direction * 0.3f, Quaternion.identity); 
        bullet.GetComponent<Bullet>().SetDirection(direction);
     }
     private void FixedUpdate(){
