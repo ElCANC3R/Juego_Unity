@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BulletEnemigo : MonoBehaviour
 {
     private Rigidbody2D Rigidbody2D;
     public float speed;
@@ -27,17 +27,11 @@ public class Bullet : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        Ladron1Script ladron = other.GetComponent<Ladron1Script>();
-        BulletEnemigo bulletEnemigo = other.GetComponent<BulletEnemigo>();
+        DeivenMove Daven = other.GetComponent<DeivenMove>();
 
-        if (ladron != null)
+        if (Daven != null)
         {
-            ladron.DanoRecibidoLadron1();
-            DestroyBullet();
-        }
-        else if (bulletEnemigo != null)
-        {
-            bulletEnemigo.DestroyBullet();
+            Daven.DanoRecibido();
             DestroyBullet();
         }
     }
