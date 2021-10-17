@@ -19,5 +19,6 @@ public class Menu : MonoBehaviour
 
     public void GameScene(){
         SceneManager.LoadScene("First Level");
+        //hola
     }
 }
