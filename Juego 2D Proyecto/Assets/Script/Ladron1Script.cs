@@ -34,7 +34,7 @@ public class Ladron1Script : MonoBehaviour
         
         float distance = Mathf.Abs(Daven.transform.position.x - transform.position.x);
 
-        if (distance <= 3.0f && Time.time > LastShoot + 0.4f)
+        if (distance <= 4.0f && Time.time > LastShoot + 0.4f)
         {
             Shoot();
             LastShoot = Time.time;
@@ -44,7 +44,7 @@ public class Ladron1Script : MonoBehaviour
     private void Shoot()
     {
         Vector3 direction;
-        if (transform.localScale.x == 1.0f) direction = Vector3.right;
+        if (transform.localScale.x == 0.3f) direction = Vector3.right;
         else direction = Vector3.left;
 
         GameObject bullet = Instantiate(BulletEnemigo, transform.position + direction * 0.1f, Quaternion.identity);

@@ -1852,6 +1852,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6526769879477876375, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: Daven
+      value: 
+      objectReference: {fileID: 1530204640}
     - target: {fileID: 6526769879477876381, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
       value: Ladron1 (1)
@@ -2847,7 +2851,7 @@ PrefabInstance:
     - target: {fileID: 6526769879477876375, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: Daven
       value: 
-      objectReference: {fileID: 4679721809790527071, guid: d5dc0ecca29b2724586e5eeb99558ad9, type: 3}
+      objectReference: {fileID: 1530204640}
     - target: {fileID: 6526769879477876381, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
       value: Ladron1
