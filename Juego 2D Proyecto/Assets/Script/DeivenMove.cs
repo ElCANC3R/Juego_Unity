@@ -24,11 +24,7 @@ public class DeivenMove : MonoBehaviour
         Horizontal= Input.GetAxisRaw("Horizontal");
        
         Animator.SetBool("Walk",Horizontal !=0.0f);
-        if(Input.GetKeyDown(KeyCode.K)){
-            Golpe = true;
-        }
-        else Golpe = false;
-        Animator.SetBool("Punch",Golpe);       
+        Animator.SetBool("Punch",Input.GetKeyDown(KeyCode.K));       
         
         if(Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f,1.0f,1.0f);
         else if(Horizontal > 0.0f) transform.localScale = new Vector3(1.0f,1.0f,1.0f);
