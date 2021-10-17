@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DeivenMove : MonoBehaviour
 {
+    public GameObject BulletPrefav;
     public float Speed;
     public float JumpForce=450;
     private Rigidbody2D Rigidbody2D;
@@ -11,6 +12,7 @@ public class DeivenMove : MonoBehaviour
     private Animator Animator;
     private bool Grounded;
     private bool Golpe;
+    private float LastShoot;
 
     void Start()
     {
@@ -24,7 +26,12 @@ public class DeivenMove : MonoBehaviour
         Horizontal= Input.GetAxisRaw("Horizontal");
        
         Animator.SetBool("Walk",Horizontal !=0.0f);
-        Animator.SetBool("Punch",Input.GetKeyDown(KeyCode.K));       
+        Animator.SetBool("Punch",Input.GetKeyDown(KeyCode.K));
+
+        if(Input.GetKeyDown(KeyCode.K) && Time.time > LastShoot + 0.5f){
+            Shoot();
+            LastShoot = Time.time;
+        }       
         
         if(Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f,1.0f,1.0f);
         else if(Horizontal > 0.0f) transform.localScale = new Vector3(1.0f,1.0f,1.0f);
@@ -42,6 +49,15 @@ public class DeivenMove : MonoBehaviour
 
     private void Jump(){
         Rigidbody2D.AddForce(Vector2.up*450);
+    }
+
+    private void Shoot(){
+        Vector3 direction;
+        if(transform.localScale.x == 1.0f) direction = Vector3.right;
+        else  direction = Vector3.left;
+
+       GameObject bullet = Instantiate(BulletPrefav, transform.position + direction * 0.1f, Quaternion.identity); 
+       bullet.GetComponent<Bullet>().SetDirection(direction);
     }
     private void FixedUpdate(){
         Rigidbody2D.velocity=new Vector2(Horizontal*Speed,Rigidbody2D.velocity.y);

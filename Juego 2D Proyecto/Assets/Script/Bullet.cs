@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
 {
     private Rigidbody2D Rigidbody2D;
     public float speed;
+    private Vector2 Direction;
     
     void Start()
     {
@@ -15,6 +16,13 @@ public class Bullet : MonoBehaviour
     
     void FixedUpdate()
     {
-        Rigidbody2D.velocity=Vector3.right*speed;
+        Rigidbody2D.velocity=Direction*speed;
+    }
+    public void SetDirection(Vector2 direction){
+        Direction = direction;
+    }
+
+    public void DestroyBullet(){
+        Destroy(gameObject);
     }
 }
