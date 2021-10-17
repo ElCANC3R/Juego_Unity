@@ -15,6 +15,6 @@ public class Bullet : MonoBehaviour
     
     void FixedUpdate()
     {
-        Rigidbody2D.velocity = Vector3.right*speed;
+        Rigidbody2D.velocity=Vector3.right*speed;
     }
 }
