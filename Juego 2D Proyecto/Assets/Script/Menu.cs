@@ -18,7 +18,12 @@ public class Menu : MonoBehaviour
     }
 
     public void GameScene(){
-        SceneManager.LoadScene("First Level");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         //hola
+    }
+
+    public void Quit(){
+        Debug.Log("QUIT!");
+        Application.Quit();
     }
 }
