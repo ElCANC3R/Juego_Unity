@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     
     void Start()
     {
-        Rigidbody2D=GetComponent<Rigidbody2D>();
+        Rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     
