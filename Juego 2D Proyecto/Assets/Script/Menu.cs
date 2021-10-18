@@ -19,6 +19,8 @@ public class Menu : MonoBehaviour
 
     public void GameScene(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        CameraScript.veces=false;
+        PauseMenu.GameIsPaused=false;
         //hola
     }
 

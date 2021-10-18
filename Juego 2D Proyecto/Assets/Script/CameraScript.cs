@@ -4,9 +4,20 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour
 {
-    public GameObject David;
+    public GameObject David;   
+    public static bool veces=false; 
     void Update()
     {
+        
+        if(PauseMenu.GameIsPaused){
+            Pause();
+            veces=false;
+        }
+        else if((!PauseMenu.GameIsPaused) && (!veces)){
+            Resume();
+            veces=true;
+        }
+
         if (David == null)
         {
             return;
@@ -15,5 +26,22 @@ public class CameraScript : MonoBehaviour
         Vector3 position = transform.position;
         position.x= David.transform.position.x;
         transform.position=position;
+    }
+
+    public void Pause(){
+
+        AudioSource[] audios = FindObjectsOfType<AudioSource>();
+        foreach (AudioSource a in audios)
+        {
+            a.Pause();
+        }
+
+    }
+    public void Resume(){
+        AudioSource[] audios = FindObjectsOfType<AudioSource>();
+        foreach (AudioSource a in audios)
+        {
+            a.Play();
+        }
     }
 }
