@@ -17,6 +17,7 @@ public class DeivenMove : MonoBehaviour
 
     public Slider VidaSlider;
     public float danoBullet = 0;
+    public static bool muerto=false;
 
     void Start()
     {
@@ -79,6 +80,7 @@ public class DeivenMove : MonoBehaviour
         VidaSlider.value -= danoBullet;
         if (VidaSlider.value <= 0)
         {
+            muerto=true;
             Destroy(gameObject);
         }
     }

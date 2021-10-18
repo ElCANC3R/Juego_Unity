@@ -6,14 +6,18 @@ public class CameraScript : MonoBehaviour
 {
     public GameObject David;   
     public static bool veces=false; 
+
+    void Start() {
+        veces=false;
+    }
     void Update()
     {
         
-        if(PauseMenu.GameIsPaused){
+        if(PauseMenu.GameIsPaused || GameOverMenu.GameIsOver){
             Pause();
             veces=false;
         }
-        else if((!PauseMenu.GameIsPaused) && (!veces)){
+        else if(((!PauseMenu.GameIsPaused) && (!veces)) || ((!GameOverMenu.GameIsOver) && (!veces))){
             Resume();
             veces=true;
         }
