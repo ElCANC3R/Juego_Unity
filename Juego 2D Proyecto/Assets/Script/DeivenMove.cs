@@ -14,10 +14,12 @@ public class DeivenMove : MonoBehaviour
     private bool Grounded;
     private bool Golpe;
     private float LastShoot;
-
     public Slider VidaSlider;
-    public float danoBullet = 0;
+    public float danoBullet = 0.1f;
     public static bool muerto=false;
+    public Slider ExpSlider;
+    public GameObject SpecialBulletPrefav;
+    private float LastShootEsp;
 
     void Start()
     {
@@ -37,6 +39,12 @@ public class DeivenMove : MonoBehaviour
         {
             Shoot();
             LastShoot = Time.time;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && ExpSlider.value >= 0.1)
+        {
+            ShootEsp();
+            LastShootEsp = Time.time;
         }
 
         if (Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
@@ -83,6 +91,18 @@ public class DeivenMove : MonoBehaviour
             muerto=true;
             Destroy(gameObject);
         }
+    }
+
+    private void ShootEsp()
+    {
+        Vector3 direction;
+        if (transform.localScale.x == 1.0f) direction = Vector3.right;
+        else direction = Vector3.left;
+
+       GameObject bullet = Instantiate(SpecialBulletPrefav, transform.position + direction * 0.1f, Quaternion.identity); 
+       bullet.GetComponent<BulletPro>().SetDirection(direction);
+
+       ExpSlider.value -= 0.1f;
     }
 
 }
