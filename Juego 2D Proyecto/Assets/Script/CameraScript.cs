@@ -29,6 +29,9 @@ public class CameraScript : MonoBehaviour
 
         Vector3 position = transform.position;
         position.x= David.transform.position.x;
+        if(David.transform.position.y>=-0.03){
+            position.y= David.transform.position.y;
+        }
         transform.position=position;
     }
 
