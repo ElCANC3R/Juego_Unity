@@ -16,7 +16,7 @@ public class DeivenMove : MonoBehaviour
     private float LastShoot;
     public Slider VidaSlider;
     public float danoBullet = 0.1f;
-    public static bool muerto=false;
+    public static bool muerto = false;
     public Slider ExpSlider;
     public GameObject SpecialBulletPrefav;
     private float LastShootEsp;
@@ -41,7 +41,7 @@ public class DeivenMove : MonoBehaviour
             LastShoot = Time.time;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && ExpSlider.value >= 0.1)
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && ExpSlider.value >= 0.3)
         {
             ShootEsp();
             LastShootEsp = Time.time;
@@ -71,11 +71,27 @@ public class DeivenMove : MonoBehaviour
     private void Shoot()
     {
         Vector3 direction;
-        if (transform.localScale.x == 1.0f) direction = Vector3.right;
-        else direction = Vector3.left;
+        bool Kalan69;
+        if (transform.localScale.x == 1.0f)
+        {
+            direction = Vector3.right;
+            Kalan69 = false;
+        }
+        else
+        {
+            direction = Vector3.left;
+            Kalan69 = true;
+        }
 
-       GameObject bullet = Instantiate(BulletPrefav, transform.position + direction * 0.1f, Quaternion.identity); 
-       bullet.GetComponent<Bullet>().SetDirection(direction);
+        /*GameObject bullet = Instantiate(BulletPrefav, transform.position + direction * 0.1f, Quaternion.identity); 
+        bullet.GetComponent<Bullet>().SetDirection(direction);*/
+
+        GameObject bullet = Instantiate(BulletPrefav, transform.position + direction * 0.1f, Quaternion.identity);
+        bullet.GetComponent<Bullet2>().SetDirection(direction);
+        if (Kalan69)
+        {
+            bullet.GetComponent<Bullet2>().SetKALAN();
+        }
     }
     private void FixedUpdate()
     {
@@ -86,9 +102,10 @@ public class DeivenMove : MonoBehaviour
     public void DanoRecibido()
     {
         VidaSlider.value -= danoBullet;
+        Animator.SetBool("Damage", true);
         if (VidaSlider.value <= 0)
         {
-            muerto=true;
+            muerto = true;
             Destroy(gameObject);
         }
     }
@@ -99,10 +116,10 @@ public class DeivenMove : MonoBehaviour
         if (transform.localScale.x == 1.0f) direction = Vector3.right;
         else direction = Vector3.left;
 
-       GameObject bullet = Instantiate(SpecialBulletPrefav, transform.position + direction * 0.1f, Quaternion.identity); 
-       bullet.GetComponent<BulletPro>().SetDirection(direction);
+        GameObject bullet = Instantiate(SpecialBulletPrefav, transform.position + direction * 0.1f, Quaternion.identity);
+        bullet.GetComponent<BulletPro>().SetDirection(direction);
 
-       ExpSlider.value -= 0.1f;
+        ExpSlider.value -= 0.3f;
     }
 
 }

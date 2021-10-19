@@ -134,4 +134,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 2
+    functionName: DestroyBullet
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 7abdf1373821e1d4997eeea58d4ba60d, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
