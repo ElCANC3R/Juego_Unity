@@ -34,7 +34,7 @@ public class Ladron1Script : MonoBehaviour
 
         float distance = Mathf.Abs(Daven.transform.position.x - transform.position.x);
 
-        if (distance <= 4.0f && Time.time > LastShoot + 0.4f)
+        if (distance <= 4.0f && Time.time > LastShoot + 0.8f)
         {
             Shoot();
             LastShoot = Time.time;

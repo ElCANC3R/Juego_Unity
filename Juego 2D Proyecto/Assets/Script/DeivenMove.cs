@@ -35,7 +35,7 @@ public class DeivenMove : MonoBehaviour
         Animator.SetBool("Walk", Horizontal != 0.0f);
         Animator.SetBool("Punch", Input.GetKeyDown(KeyCode.K));
 
-        if (Input.GetKeyDown(KeyCode.K) && Time.time > LastShoot + 0.2f)
+        if (Input.GetKeyDown(KeyCode.K) && Time.time > LastShoot + 0.3f)
         {
             Shoot();
             LastShoot = Time.time;
