@@ -31,7 +31,7 @@ public class Ladron1Script : MonoBehaviour
             transform.localScale = new Vector3(-0.3f, 0.3f, 1.0f);
         }
 
-        
+
         float distance = Mathf.Abs(Daven.transform.position.x - transform.position.x);
 
         if (distance <= 4.0f && Time.time > LastShoot + 0.4f)
@@ -58,6 +58,11 @@ public class Ladron1Script : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void MatarInstaEspecial()
+    {
+        Destroy(gameObject);
     }
 
 }
