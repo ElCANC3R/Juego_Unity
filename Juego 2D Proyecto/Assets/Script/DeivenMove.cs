@@ -57,7 +57,7 @@ public class DeivenMove : MonoBehaviour
 
     private void Jump()
     {
-        Rigidbody2D.AddForce(Vector2.up * 450);
+        Rigidbody2D.AddForce(Vector2.up * 500);
     }
 
     private void Shoot()
@@ -71,7 +71,7 @@ public class DeivenMove : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = new Vector2(Horizontal * Speed, Rigidbody2D.velocity.y);
+        Rigidbody2D.velocity = new Vector2(Horizontal * 3, Rigidbody2D.velocity.y);
 
     }
 
