@@ -29,7 +29,7 @@ public class CameraScript : MonoBehaviour
 
         Vector3 position = transform.position;
         position.x= David.transform.position.x;
-        if(David.transform.position.y>=0.54){
+        if(David.transform.position.y>=-6.47){
             position.y= David.transform.position.y;
         }
         transform.position=position;
