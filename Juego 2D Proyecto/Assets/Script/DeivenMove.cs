@@ -21,6 +21,10 @@ public class DeivenMove : MonoBehaviour
     public GameObject SpecialBulletPrefav;
     private float LastShootEsp;
 
+    // Variables de Buffs
+
+    public float AumVida;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -120,6 +124,11 @@ public class DeivenMove : MonoBehaviour
         bullet.GetComponent<BulletPro>().SetDirection(direction);
 
         ExpSlider.value -= 0.3f;
+    }
+
+    public void AumentoVida(){
+        VidaSlider.value += AumVida;
+        Debug.Log(VidaSlider.value);
     }
 
 }

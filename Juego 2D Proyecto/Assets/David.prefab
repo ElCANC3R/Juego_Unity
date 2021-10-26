@@ -126,6 +126,7 @@ MonoBehaviour:
   danoBullet: 0.1
   ExpSlider: {fileID: 0}
   SpecialBulletPrefav: {fileID: 8280187429023163412, guid: d3ab3999691375840a054ee2b251d23b, type: 3}
+  AumVida: 0.3
 --- !u!95 &6603600233548240287
 Animator:
   serializedVersion: 3
