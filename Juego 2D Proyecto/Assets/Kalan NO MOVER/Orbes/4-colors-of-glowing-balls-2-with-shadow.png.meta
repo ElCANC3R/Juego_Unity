@@ -1,0 +1,2424 @@
+fileFormatVersion: 2
+guid: acef48a74787b6941b5ffefd00a4fe47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6403456103561172413
+    second: 4-colors-of-glowing-balls-2-with-shadow_0
+  - first:
+      213: 5177965122561576693
+    second: 4-colors-of-glowing-balls-2-with-shadow_1
+  - first:
+      213: 5021269506889801838
+    second: 4-colors-of-glowing-balls-2-with-shadow_2
+  - first:
+      213: -7752790533019512454
+    second: 4-colors-of-glowing-balls-2-with-shadow_3
+  - first:
+      213: -2651339940238426009
+    second: 4-colors-of-glowing-balls-2-with-shadow_4
+  - first:
+      213: 8360335170166952537
+    second: 4-colors-of-glowing-balls-2-with-shadow_5
+  - first:
+      213: 3700096501203009885
+    second: 4-colors-of-glowing-balls-2-with-shadow_6
+  - first:
+      213: -6250487475861737012
+    second: 4-colors-of-glowing-balls-2-with-shadow_7
+  - first:
+      213: -5874106441073291280
+    second: 4-colors-of-glowing-balls-2-with-shadow_8
+  - first:
+      213: 5246036396279348064
+    second: 4-colors-of-glowing-balls-2-with-shadow_9
+  - first:
+      213: 7309824441813271708
+    second: 4-colors-of-glowing-balls-2-with-shadow_10
+  - first:
+      213: -8864145863818598152
+    second: 4-colors-of-glowing-balls-2-with-shadow_11
+  - first:
+      213: -8460020863559277331
+    second: 4-colors-of-glowing-balls-2-with-shadow_12
+  - first:
+      213: -569127255467798727
+    second: 4-colors-of-glowing-balls-2-with-shadow_13
+  - first:
+      213: 8346588698346506374
+    second: 4-colors-of-glowing-balls-2-with-shadow_14
+  - first:
+      213: -5784299287165176874
+    second: 4-colors-of-glowing-balls-2-with-shadow_15
+  - first:
+      213: 9027710641112659191
+    second: 4-colors-of-glowing-balls-2-with-shadow_16
+  - first:
+      213: -1749148188532309530
+    second: 4-colors-of-glowing-balls-2-with-shadow_17
+  - first:
+      213: -6917808600638069963
+    second: 4-colors-of-glowing-balls-2-with-shadow_18
+  - first:
+      213: 2136985894299723167
+    second: 4-colors-of-glowing-balls-2-with-shadow_19
+  - first:
+      213: -9041340259468047039
+    second: 4-colors-of-glowing-balls-2-with-shadow_20
+  - first:
+      213: 4140683219518700572
+    second: 4-colors-of-glowing-balls-2-with-shadow_21
+  - first:
+      213: 4843379386449795446
+    second: 4-colors-of-glowing-balls-2-with-shadow_22
+  - first:
+      213: -3743527326650908146
+    second: 4-colors-of-glowing-balls-2-with-shadow_23
+  - first:
+      213: -7113564013221613692
+    second: 4-colors-of-glowing-balls-2-with-shadow_24
+  - first:
+      213: 3311679831745394853
+    second: 4-colors-of-glowing-balls-2-with-shadow_25
+  - first:
+      213: -1470485863797326975
+    second: 4-colors-of-glowing-balls-2-with-shadow_26
+  - first:
+      213: -7819568623490905758
+    second: 4-colors-of-glowing-balls-2-with-shadow_27
+  - first:
+      213: 2568946396752574517
+    second: 4-colors-of-glowing-balls-2-with-shadow_28
+  - first:
+      213: -8916086543963226822
+    second: 4-colors-of-glowing-balls-2-with-shadow_29
+  - first:
+      213: 1302355247765485562
+    second: 4-colors-of-glowing-balls-2-with-shadow_30
+  - first:
+      213: -8471645016784951245
+    second: 4-colors-of-glowing-balls-2-with-shadow_31
+  - first:
+      213: -6936007834015229779
+    second: 4-colors-of-glowing-balls-2-with-shadow_32
+  - first:
+      213: 5855562855584879415
+    second: 4-colors-of-glowing-balls-2-with-shadow_33
+  - first:
+      213: 5027285137311863304
+    second: 4-colors-of-glowing-balls-2-with-shadow_34
+  - first:
+      213: 5051378087032180245
+    second: 4-colors-of-glowing-balls-2-with-shadow_35
+  - first:
+      213: -1181219509079448747
+    second: 4-colors-of-glowing-balls-2-with-shadow_36
+  - first:
+      213: -5188146945317093959
+    second: 4-colors-of-glowing-balls-2-with-shadow_37
+  - first:
+      213: -8427487476336737299
+    second: 4-colors-of-glowing-balls-2-with-shadow_38
+  - first:
+      213: 2406769142413367566
+    second: 4-colors-of-glowing-balls-2-with-shadow_39
+  - first:
+      213: -2448373496809238345
+    second: 4-colors-of-glowing-balls-2-with-shadow_40
+  - first:
+      213: 4487327968581779151
+    second: 4-colors-of-glowing-balls-2-with-shadow_41
+  - first:
+      213: 5966313189607572725
+    second: 4-colors-of-glowing-balls-2-with-shadow_42
+  - first:
+      213: -5383080949503234683
+    second: 4-colors-of-glowing-balls-2-with-shadow_43
+  - first:
+      213: -2097645301648972517
+    second: 4-colors-of-glowing-balls-2-with-shadow_44
+  - first:
+      213: -871008823661419089
+    second: 4-colors-of-glowing-balls-2-with-shadow_45
+  - first:
+      213: -4722636794448398114
+    second: 4-colors-of-glowing-balls-2-with-shadow_46
+  - first:
+      213: 5960780683023463146
+    second: 4-colors-of-glowing-balls-2-with-shadow_47
+  - first:
+      213: -7839993991262809785
+    second: 4-colors-of-glowing-balls-2-with-shadow_48
+  - first:
+      213: 1076146391476327280
+    second: 4-colors-of-glowing-balls-2-with-shadow_49
+  - first:
+      213: -7639912476232090697
+    second: 4-colors-of-glowing-balls-2-with-shadow_50
+  - first:
+      213: -8609099833974214052
+    second: 4-colors-of-glowing-balls-2-with-shadow_51
+  - first:
+      213: -7135945119090314287
+    second: 4-colors-of-glowing-balls-2-with-shadow_52
+  - first:
+      213: -712236286978348756
+    second: 4-colors-of-glowing-balls-2-with-shadow_53
+  - first:
+      213: 7351793106627855763
+    second: 4-colors-of-glowing-balls-2-with-shadow_54
+  - first:
+      213: -5726886181328642163
+    second: 4-colors-of-glowing-balls-2-with-shadow_55
+  - first:
+      213: -7905560895764846716
+    second: 4-colors-of-glowing-balls-2-with-shadow_56
+  - first:
+      213: 5269383756042588820
+    second: 4-colors-of-glowing-balls-2-with-shadow_57
+  - first:
+      213: 7116002786581757901
+    second: 4-colors-of-glowing-balls-2-with-shadow_58
+  - first:
+      213: -7694029605817392696
+    second: 4-colors-of-glowing-balls-2-with-shadow_59
+  - first:
+      213: -4879458921472459037
+    second: 4-colors-of-glowing-balls-2-with-shadow_60
+  - first:
+      213: -4440526348146273456
+    second: 4-colors-of-glowing-balls-2-with-shadow_61
+  - first:
+      213: 1471998201279490468
+    second: 4-colors-of-glowing-balls-2-with-shadow_62
+  - first:
+      213: -3122177651639117737
+    second: 4-colors-of-glowing-balls-2-with-shadow_63
+  - first:
+      213: -5975188857765122303
+    second: 4-colors-of-glowing-balls-2-with-shadow_64
+  - first:
+      213: -1311026177333410481
+    second: 4-colors-of-glowing-balls-2-with-shadow_65
+  - first:
+      213: 3926551116897535715
+    second: 4-colors-of-glowing-balls-2-with-shadow_66
+  - first:
+      213: 7265088110379468945
+    second: 4-colors-of-glowing-balls-2-with-shadow_67
+  - first:
+      213: 4493949963751212464
+    second: 4-colors-of-glowing-balls-2-with-shadow_68
+  - first:
+      213: 3505555178992351365
+    second: 4-colors-of-glowing-balls-2-with-shadow_69
+  - first:
+      213: 6939361421376918713
+    second: 4-colors-of-glowing-balls-2-with-shadow_70
+  - first:
+      213: -7594288578064266213
+    second: 4-colors-of-glowing-balls-2-with-shadow_71
+  - first:
+      213: 7267799410687300834
+    second: 4-colors-of-glowing-balls-2-with-shadow_72
+  - first:
+      213: 7554268643639730106
+    second: 4-colors-of-glowing-balls-2-with-shadow_73
+  - first:
+      213: -5766151514500921745
+    second: 4-colors-of-glowing-balls-2-with-shadow_74
+  - first:
+      213: -4988977202364361776
+    second: 4-colors-of-glowing-balls-2-with-shadow_75
+  - first:
+      213: 5017792840109120026
+    second: 4-colors-of-glowing-balls-2-with-shadow_76
+  - first:
+      213: 4011079240211658190
+    second: 4-colors-of-glowing-balls-2-with-shadow_77
+  - first:
+      213: 7667183122465238955
+    second: 4-colors-of-glowing-balls-2-with-shadow_78
+  - first:
+      213: 3158315731291131306
+    second: 4-colors-of-glowing-balls-2-with-shadow_79
+  - first:
+      213: 3123205059031761799
+    second: 4-colors-of-glowing-balls-2-with-shadow_80
+  - first:
+      213: -4735319916601308681
+    second: 4-colors-of-glowing-balls-2-with-shadow_81
+  - first:
+      213: -7838955347585787132
+    second: 4-colors-of-glowing-balls-2-with-shadow_82
+  - first:
+      213: -8145799584796984779
+    second: 4-colors-of-glowing-balls-2-with-shadow_83
+  - first:
+      213: 1564821805928255283
+    second: 4-colors-of-glowing-balls-2-with-shadow_84
+  - first:
+      213: -625092771234199002
+    second: 4-colors-of-glowing-balls-2-with-shadow_85
+  - first:
+      213: -3834932931176152169
+    second: 4-colors-of-glowing-balls-2-with-shadow_86
+  - first:
+      213: -4305612809280222572
+    second: 4-colors-of-glowing-balls-2-with-shadow_87
+  - first:
+      213: -9176930368814806778
+    second: 4-colors-of-glowing-balls-2-with-shadow_88
+  - first:
+      213: -3141227418755631996
+    second: 4-colors-of-glowing-balls-2-with-shadow_89
+  - first:
+      213: -6256822830240279108
+    second: 4-colors-of-glowing-balls-2-with-shadow_90
+  - first:
+      213: -4512914333071020271
+    second: 4-colors-of-glowing-balls-2-with-shadow_91
+  - first:
+      213: -5214124356173352845
+    second: 4-colors-of-glowing-balls-2-with-shadow_92
+  - first:
+      213: 4403966938203525438
+    second: 4-colors-of-glowing-balls-2-with-shadow_93
+  - first:
+      213: -5332878025400628658
+    second: 4-colors-of-glowing-balls-2-with-shadow_94
+  - first:
+      213: -8814197646111227300
+    second: 4-colors-of-glowing-balls-2-with-shadow_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aed6cc99a5227a0800000000000000
+      internalID: -6403456103561172413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe05ad48d3dbd740800000000000000
+      internalID: 5177965122561576693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60eaaf33022fa540800000000000000
+      internalID: 5021269506889801838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a715c55161e886490800000000000000
+      internalID: -7752790533019512454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760884b2f5c843bd0800000000000000
+      internalID: -2651339940238426009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9529105da80e50470800000000000000
+      internalID: 8360335170166952537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d510fd4f922695330800000000000000
+      internalID: 3700096501203009885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1bb38d1cec149a0800000000000000
+      internalID: -6250487475861737012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff0efe605bfa7ea0800000000000000
+      internalID: -5874106441073291280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b3007ce4aadc840800000000000000
+      internalID: 5246036396279348064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c948fb8c996b17560800000000000000
+      internalID: 7309824441813271708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f828d51d4a3cf480800000000000000
+      internalID: -8864145863818598152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4e72309d7f79a80800000000000000
+      internalID: -8460020863559277331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f49d9c6cd0a18f0800000000000000
+      internalID: -569127255467798727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688cb33f23a05d370800000000000000
+      internalID: 8346588698346506374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d379f1e17a0abfa0800000000000000
+      internalID: -5784299287165176874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4b88a4ffed84d70800000000000000
+      internalID: 9027710641112659191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1830b6df6c9b7e0800000000000000
+      internalID: -1749148188532309530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53363d6dab10fff90800000000000000
+      internalID: -6917808600638069963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9561cf395918ad10800000000000000
+      internalID: 2136985894299723167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d08f4efe4b68280800000000000000
+      internalID: -9041340259468047039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c35da2379a67930800000000000000
+      internalID: 4140683219518700572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6791ac104e3273340800000000000000
+      internalID: 4843379386449795446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0241000bb15c0cc0800000000000000
+      internalID: -3743527326650908146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f6ce0283b874d90800000000000000
+      internalID: -7113564013221613692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8720dc24375fd20800000000000000
+      internalID: 3311679831745394853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b7029d5e8c79be0800000000000000
+      internalID: -1470485863797326975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269c80c44cf4b7390800000000000000
+      internalID: -7819568623490905758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538f471132bb6a320800000000000000
+      internalID: 2568946396752574517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d7e681782b34480800000000000000
+      internalID: -8916086543963226822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af77d6a9235e21210800000000000000
+      internalID: 1302355247765485562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338235fedbbae6a80800000000000000
+      internalID: -8471645016784951245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8123e9f995ebf90800000000000000
+      internalID: -6936007834015229779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733db1f9463234150800000000000000
+      internalID: 5855562855584879415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802131a523184c540800000000000000
+      internalID: 5027285137311863304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eceb75b991a1640800000000000000
+      internalID: 5051378087032180245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553ee876d177b9fe0800000000000000
+      internalID: -1181219509079448747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdb8d957dffff7b0800000000000000
+      internalID: -5188146945317093959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de345ef7acc8b0b80800000000000000
+      internalID: -8427487476336737299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e099bed88cf866120800000000000000
+      internalID: 2406769142413367566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b05435d641a50ed0800000000000000
+      internalID: -2448373496809238345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcefdf53301364e30800000000000000
+      internalID: 4487327968581779151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4894d2c3a9cc250800000000000000
+      internalID: 5966313189607572725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58defafa5647b45b0800000000000000
+      internalID: -5383080949503234683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15227246baa3e2e0800000000000000
+      internalID: -2097645301648972517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa52e65f61e89e3f0800000000000000
+      internalID: -871008823661419089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8b6b76bd2d57eb0800000000000000
+      internalID: -4722636794448398114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2bf9b1372f8b250800000000000000
+      internalID: 5960780683023463146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7415595c00fb23390800000000000000
+      internalID: -7839993991262809785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073d34ef07d3fee00800000000000000
+      internalID: 1076146391476327280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb7c13b41499f590800000000000000
+      internalID: -7639912476232090697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52b7106055568880800000000000000
+      internalID: -8609099833974214052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d370f7d8b708fc90800000000000000
+      internalID: -7135945119090314287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29238eded0ad16f0800000000000000
+      internalID: -712236286978348756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39508b601e0d60660800000000000000
+      internalID: 7351793106627855763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f10d44c530680b0800000000000000
+      internalID: -5726886181328642163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487a7b1304ec94290800000000000000
+      internalID: -7905560895764846716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492d1249b9c902940800000000000000
+      internalID: 5269383756042588820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf35ea05de11c260800000000000000
+      internalID: 7116002786581757901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c16ae596d0593590800000000000000
+      internalID: -7694029605817392696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eef581a6fda84cb0800000000000000
+      internalID: -4879458921472459037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0539af230d41062c0800000000000000
+      internalID: -4440526348146273456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a92749a0969d6410800000000000000
+      internalID: 1471998201279490468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7581364c7fbcba4d0800000000000000
+      internalID: -3122177651639117737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fa90b446dd31da0800000000000000
+      internalID: -5975188857765122303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45cdc843ac4ecde0800000000000000
+      internalID: -1311026177333410481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e64713ef69ed7630800000000000000
+      internalID: 3926551116897535715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1980511f427c2d460800000000000000
+      internalID: 7265088110379468945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b545cb9ea7bd5e30800000000000000
+      internalID: 4493949963751212464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588be50bcdb36a030800000000000000
+      internalID: 3505555178992351365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4983942709d4060800000000000000
+      internalID: 6939361421376918713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c4ca646caab9690800000000000000
+      internalID: -7594288578064266213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e45fccbe096cd460800000000000000
+      internalID: 7267799410687300834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf9402ae4726d860800000000000000
+      internalID: 7554268643639730106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6687197fb38affa0800000000000000
+      internalID: -5766151514500921745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3dc8ccaa793cab0800000000000000
+      internalID: -4988977202364361776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ad33fa008c2a540800000000000000
+      internalID: 5017792840109120026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec572ce31573aa730800000000000000
+      internalID: 4011079240211658190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf296a6d6e476a60800000000000000
+      internalID: 7667183122465238955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadc2249c6794db20800000000000000
+      internalID: 3158315731291131306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838a48247ad75b20800000000000000
+      internalID: 3123205059031761799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f98529ef93c84eb0800000000000000
+      internalID: -4735319916601308681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b1009d4af663390800000000000000
+      internalID: -7838955347585787132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ab6a89f6e44fe80800000000000000
+      internalID: -8145799584796984779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f8327442d57b510800000000000000
+      internalID: 1564821805928255283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62acbeabf693357f0800000000000000
+      internalID: -625092771234199002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7934cc341d497cac0800000000000000
+      internalID: -3834932931176152169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a0b7a46f36f34c0800000000000000
+      internalID: -4305612809280222572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6098c46737ef4a080800000000000000
+      internalID: -9176930368814806778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4847a5a3e4e1864d0800000000000000
+      internalID: -3141227418755631996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb559f439cc4b29a0800000000000000
+      internalID: -6256822830240279108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f68831358ee51c0800000000000000
+      internalID: -4512914333071020271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370339f0685b3a7b0800000000000000
+      internalID: -5214124356173352845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_93
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e319f2ad8980e1d30800000000000000
+      internalID: 4403966938203525438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a4281d0bfcdf5b0800000000000000
+      internalID: -5332878025400628658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4-colors-of-glowing-balls-2-with-shadow_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52c473c0fdada580800000000000000
+      internalID: -8814197646111227300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
