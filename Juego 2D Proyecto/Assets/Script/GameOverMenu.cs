@@ -7,9 +7,10 @@ public class GameOverMenu : MonoBehaviour
 {
     public static bool GameIsOver=false;
     public GameObject GameOverMenuUI;
+    private string level=""; 
     void Start()
     {
-        
+        level= Application.loadedLevelName;
     }
 
     // Update is called once per frame
@@ -37,7 +38,7 @@ public class GameOverMenu : MonoBehaviour
         DeivenMove.muerto=false;
         GameOverMenuUI.SetActive(false);
         Time.timeScale=1f;
-        SceneManager.LoadScene("First Level");
+        SceneManager.LoadScene(level);
         GameOverMenu.GameIsOver=false;
     }
 }

@@ -6,9 +6,15 @@ public class CameraScript : MonoBehaviour
 {
     public GameObject David;   
     public static bool veces=false; 
-
+    private string level=""; 
+    private float volume;
     void Start() {
         veces=false;
+        level= Application.loadedLevelName;
+        if(PlayerPrefs.HasKey("musicVolume")){
+            volume=PlayerPrefs.GetFloat("musicVolume");
+            AudioListener.volume= volume;
+        }
     }
     void Update()
     {
@@ -29,9 +35,33 @@ public class CameraScript : MonoBehaviour
 
         Vector3 position = transform.position;
         position.x= David.transform.position.x;
-        if(David.transform.position.y>=-6.47){
-            position.y= David.transform.position.y;
+        if(level == "First Level"){
+            if(David.transform.position.y>=0.19){
+                position.y= David.transform.position.y;
+            }
         }
+        else if(level == "Second Level"){
+            if(David.transform.position.y>=-6.47){
+                position.y= David.transform.position.y;
+            }
+        }
+        else if(level == "Third Level"){
+            if(David.transform.position.y>=-6.47){
+                position.y= David.transform.position.y;
+            }
+        }
+        else if(level == "Fourth Level"){
+            if(David.transform.position.y>=-6.47){
+                position.y= David.transform.position.y;
+            }
+        }
+        else if(level == "Fifth Level"){
+            if(David.transform.position.y>=-6.47){
+                position.y= David.transform.position.y;
+            }
+        }
+        
+       
         transform.position=position;
     }
 
