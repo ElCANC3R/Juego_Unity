@@ -36,8 +36,18 @@ public class Ladron1Script : MonoBehaviour
 
         if (distance <= 4.0f && Time.time > LastShoot + 0.8f)
         {
-            Shoot();
-            LastShoot = Time.time;
+            //left
+            if(Daven.transform.position.x < transform.position.x && transform.eulerAngles.y == 0)
+            {
+                Shoot();
+                LastShoot = Time.time;
+            }
+            //right
+            if(Daven.transform.position.x > transform.position.x && transform.eulerAngles.y == 180)
+            {
+                Shoot();
+                LastShoot = Time.time;
+            }
         }
     }
 
