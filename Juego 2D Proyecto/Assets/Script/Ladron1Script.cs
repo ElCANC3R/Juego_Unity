@@ -22,32 +22,43 @@ public class Ladron1Script : MonoBehaviour
 
         Vector3 direction = Daven.transform.position - transform.position;
 
-        if (direction.x >= 0.0f)
+        /*if (direction.x >= 0.0f)
         {
             transform.localScale = new Vector3(0.3f, 0.3f, 1.0f);
         }
         else
         {
             transform.localScale = new Vector3(-0.3f, 0.3f, 1.0f);
-        }
+        }*/
 
 
         float distance = Mathf.Abs(Daven.transform.position.x - transform.position.x);
 
         if (distance <= 4.0f && Time.time > LastShoot + 0.8f)
         {
-            Shoot();
-            LastShoot = Time.time;
+            //left
+            if(Daven.transform.position.x < transform.position.x && transform.eulerAngles.y == 0)
+            {
+                Shoot();
+                LastShoot = Time.time;
+            }
+            //right
+            if(Daven.transform.position.x > transform.position.x && transform.eulerAngles.y == 180)
+            {
+                Shoot();
+                LastShoot = Time.time;
+            }
         }
     }
 
     private void Shoot()
     {
         Vector3 direction;
-        if (transform.localScale.x == 0.3f) direction = Vector3.right;
+        //Rotation
+        if (transform.eulerAngles.y == 180) direction = Vector3.right;
         else direction = Vector3.left;
 
-        GameObject bullet = Instantiate(BulletEnemigo, transform.position + direction * 0.1f, Quaternion.identity);
+        GameObject bullet = Instantiate(BulletEnemigo, transform.position + direction * 0.3f, Quaternion.identity);
         bullet.GetComponent<BulletEnemigo>().SetDirection(direction);
     }
 
