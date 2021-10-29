@@ -6,17 +6,14 @@ using UnityEngine.UI;
 
 public class Next : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     Levels levels;
-
     void Awake(){
       levels = GameObject.Find("LevelMan").GetComponent (typeof(Levels)) as Levels;
     }
 
     private void OnCollisionEnter2D(Collision2D other){
       if(other.collider.CompareTag("Player")){
-        levels.activarBtn(1);
+        levels.desbloquearNivel();
         //levels.volverMenu();
         //SceneManager.LoadScene("Second Level",LoadSceneMode.Single);
  

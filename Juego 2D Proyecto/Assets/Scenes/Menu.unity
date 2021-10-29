@@ -942,7 +942,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 311749261}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Levels, Assembly-CSharp
         m_MethodName: cargaNivel
         m_Mode: 3
@@ -1126,56 +1126,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260895554}
   m_CullTransparentMesh: 1
---- !u!1 &311749260
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 311749262}
-  - component: {fileID: 311749261}
-  m_Layer: 0
-  m_Name: LevelMan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &311749261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 311749260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4bfcb619a4019d4e93cf92ec477eef2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nivelActual: 0
-  botonesMenu:
-  - {fileID: 1346582567}
-  - {fileID: 366251600}
-  - {fileID: 180255811}
-  - {fileID: 1395650198}
-  - {fileID: 1106451616}
---- !u!4 &311749262
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 311749260}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 424.66415, y: 171.84914, z: -129.77206}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &320708608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1527,16 +1477,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 311749261}
+      - m_Target: {fileID: 2117503868}
         m_TargetAssemblyTypeName: Levels, Assembly-CSharp
         m_MethodName: cargaNivel
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Second Level
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &366251601
@@ -2885,7 +2835,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 311749261}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Levels, Assembly-CSharp
         m_MethodName: cargaNivel
         m_Mode: 3
@@ -3187,16 +3137,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 311749261}
+      - m_Target: {fileID: 2117503868}
         m_TargetAssemblyTypeName: Levels, Assembly-CSharp
         m_MethodName: cargaNivel
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: First Level
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1346582568
@@ -3488,7 +3438,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 311749261}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Levels, Assembly-CSharp
         m_MethodName: cargaNivel
         m_Mode: 3
@@ -4533,7 +4483,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nivelActual: 0
-  botonesMenu: []
+  botonesMenu:
+  - {fileID: 1346582567}
+  - {fileID: 366251600}
+  - {fileID: 180255811}
+  - {fileID: 1395650198}
+  - {fileID: 1106451616}
 --- !u!114 &2117503869
 MonoBehaviour:
   m_ObjectHideFlags: 0

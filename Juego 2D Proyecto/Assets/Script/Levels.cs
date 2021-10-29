@@ -4,39 +4,45 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public  class Levels : MonoBehaviour
+public class Levels : MonoBehaviour
 {
-    static public int nivelesDesbloqueados;
+    public static int nivelesDesbloqueados;
     public int nivelActual;
     public  Button[] botonesMenu;
 
-    void start(){
-        if(SceneManager.GetActiveScene ().name == "Menu"){
-            //actualizarBotones();
+    void Start(){
+        if(SceneManager.GetActiveScene().name == "Menu"){
+            actualizarBotones();
         }
     }
 
-    public void cargaNivel(int scene)
+    public void cargaNivel(string scene)
     {
         SceneManager.LoadScene(scene);
+        
         //PauseMenu.GameIsPaused=false;
         //GameOverMenu.GameIsOver=false;
     }
 
-    public void desbloquearNivel(int i){
+    public void desbloquearNivel(){
         if(nivelesDesbloqueados < nivelActual){
             nivelesDesbloqueados = nivelActual;
             nivelActual++;
         }
-        volverMenu();
+        cargaNivel("Menu");
     }
 
-    public void activarBtn(int btn){
-        botonesMenu[btn].interactable = true;
+    public void actualizarBotones(){
+        Debug.Log("niveles desbloqueados: " + nivelesDesbloqueados + " size: " + botonesMenu.Length);
+        Debug.Log("Escena actual: "+ SceneManager.GetActiveScene().name);
+        for(int i = 0; i < nivelesDesbloqueados+1; i++){
+            botonesMenu[i].interactable = true;
+            Debug.Log("Hola "+i);
+        }
     }
 
-    public void volverMenu(){
-        cargaNivel(0);
+    /*public void volverMenu(){
+        cargaNivel("Menu");
         //desbloquearNivel();
-    }
+    }*/
 }
