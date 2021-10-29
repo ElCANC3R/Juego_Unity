@@ -1,26 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Levels : MonoBehaviour
+public  class Levels : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    static public int nivelesDesbloqueados;
+    public int nivelActual;
+    public  Button[] botonesMenu;
 
-    // Update is called once per frame
-    void Update()
-    {
-         
+    void start(){
+        if(SceneManager.GetActiveScene ().name == "Menu"){
+            //actualizarBotones();
+        }
     }
 
     public void cargaNivel(int scene)
     {
         SceneManager.LoadScene(scene);
-        PauseMenu.GameIsPaused=false;
-        GameOverMenu.GameIsOver=false;
+        //PauseMenu.GameIsPaused=false;
+        //GameOverMenu.GameIsOver=false;
+    }
+
+    public void desbloquearNivel(int i){
+        if(nivelesDesbloqueados < nivelActual){
+            nivelesDesbloqueados = nivelActual;
+            nivelActual++;
+        }
+        volverMenu();
+    }
+
+    public void activarBtn(int btn){
+        botonesMenu[btn].interactable = true;
+    }
+
+    public void volverMenu(){
+        cargaNivel(0);
+        //desbloquearNivel();
     }
 }
