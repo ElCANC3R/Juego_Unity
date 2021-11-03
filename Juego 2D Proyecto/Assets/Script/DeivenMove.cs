@@ -14,21 +14,31 @@ public class DeivenMove : MonoBehaviour
     private bool Grounded;
     private bool Golpe;
     private float LastShoot;
-    public Slider VidaSlider;
-    public float danoBullet = 0.1f;
-    public static bool muerto = false;
-    public Slider ExpSlider;
     public GameObject SpecialBulletPrefav;
     private float LastShootEsp;
 
-    // Variables de Buffs
+    // Variables de Vida y Experiencia
+    public Slider VidaSlider;
+    public float danoBullet = 0.1f;
+    public static bool muerto = false;
+    public Slider EneSlider;
+    private float Vida;
+    private float Energia;
+    public float gastoEsp = 0.3f;
 
+    // Variables de Buffs
     public float AumVida;
+    public float AumEne;
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
+
+        VidaSlider.value = 1f;
+        EneSlider.value = 1f;
+        Vida = 1f;
+        Energia = 1f;
     }
 
     // Update is called once per frame
@@ -45,7 +55,7 @@ public class DeivenMove : MonoBehaviour
             LastShoot = Time.time;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && ExpSlider.value >= 0.3)
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && Energia >= 0.3)
         {
             ShootEsp();
             LastShootEsp = Time.time;
@@ -105,8 +115,14 @@ public class DeivenMove : MonoBehaviour
 
     public void DanoRecibido()
     {
-        VidaSlider.value -= danoBullet;
+        Vida -= danoBullet;
+
+        if(Vida <= 1){
+            VidaSlider.value = Vida;
+        }
+
         Animator.SetBool("Damage", true);
+        
         if (VidaSlider.value <= 0)
         {
             muerto = true;
@@ -123,12 +139,23 @@ public class DeivenMove : MonoBehaviour
         GameObject bullet = Instantiate(SpecialBulletPrefav, transform.position + direction * 0.1f, Quaternion.identity);
         bullet.GetComponent<BulletPro>().SetDirection(direction);
 
-        ExpSlider.value -= 0.3f;
+        Energia -= gastoEsp;
+
+        if(Energia <= 1){
+            EneSlider.value = Energia;
+        }
+        
     }
 
     public void AumentoVida(){
-        VidaSlider.value += AumVida;
-        Debug.Log(VidaSlider.value);
+        Vida += AumVida;
+        VidaSlider.value = Vida;
+        Debug.Log(Vida);
+    }
+
+    public void AumentoEner(){
+        Energia += AumEne;
+        EneSlider.value = Energia;
     }
 
 }
