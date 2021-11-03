@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraScript : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class CameraScript : MonoBehaviour
     private float volume;
     void Start() {
         veces=false;
-        level= Application.loadedLevelName;
+        level= SceneManager.GetActiveScene().name;
         if(PlayerPrefs.HasKey("musicVolume")){
             volume=PlayerPrefs.GetFloat("musicVolume");
             AudioListener.volume= volume;
