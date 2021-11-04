@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 173255560887882335}
   - component: {fileID: 173255560887882334}
   - component: {fileID: -5310652590064008659}
+  - component: {fileID: -2890613456996415714}
   m_Layer: 0
   m_Name: OrbeVerde
   m_TagString: Untagged
@@ -119,3 +120,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.16
+--- !u!114 &-2890613456996415714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173255560887882333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87069adc26bf37c46b22ad2e60113379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

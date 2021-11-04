@@ -122,11 +122,14 @@ MonoBehaviour:
   BulletPrefav: {fileID: 5070638903898276811, guid: 70a817d246e9fc644992ffe38ec73b62, type: 3}
   Speed: 5
   JumpForce: 150
+  SpecialBulletPrefav: {fileID: 8280187429023163412, guid: d3ab3999691375840a054ee2b251d23b, type: 3}
   VidaSlider: {fileID: 0}
   danoBullet: 0.1
-  ExpSlider: {fileID: 0}
-  SpecialBulletPrefav: {fileID: 8280187429023163412, guid: d3ab3999691375840a054ee2b251d23b, type: 3}
+  EneSlider: {fileID: 0}
+  gastoEsp: 0.3
   AumVida: 0.3
+  AumEne: 0.3
+  TempEnerInfi: 30
 --- !u!95 &6603600233548240287
 Animator:
   serializedVersion: 3

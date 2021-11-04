@@ -28,7 +28,13 @@ public class DeivenMove : MonoBehaviour
 
     // Variables de Buffs
     public float AumVida;
+
     public float AumEne;
+    
+    private bool IsEnerInfi = false;
+    private float IniEnerInfi;
+    public float TempEnerInfi;
+    private float TempEnerInfiNet;
 
     void Start()
     {
@@ -39,6 +45,8 @@ public class DeivenMove : MonoBehaviour
         EneSlider.value = 1f;
         Vida = 1f;
         Energia = 1f;
+
+        TempEnerInfiNet = TempEnerInfi;
     }
 
     // Update is called once per frame
@@ -55,7 +63,7 @@ public class DeivenMove : MonoBehaviour
             LastShoot = Time.time;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && Energia >= 0.3)
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && Energia >= 0.3 || Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && IsEnerInfi == true)
         {
             ShootEsp();
             LastShootEsp = Time.time;
@@ -75,6 +83,12 @@ public class DeivenMove : MonoBehaviour
         {
             Jump();
         }
+
+        if(Time.time >= IniEnerInfi + TempEnerInfiNet){
+            IsEnerInfi = false;
+            TempEnerInfiNet = TempEnerInfi;
+        }
+
     }
 
     private void Jump()
@@ -117,12 +131,13 @@ public class DeivenMove : MonoBehaviour
     {
         Vida -= danoBullet;
 
-        if(Vida <= 1){
+        if (Vida <= 1)
+        {
             VidaSlider.value = Vida;
         }
 
         Animator.SetBool("Damage", true);
-        
+
         if (VidaSlider.value <= 0)
         {
             muerto = true;
@@ -139,23 +154,41 @@ public class DeivenMove : MonoBehaviour
         GameObject bullet = Instantiate(SpecialBulletPrefav, transform.position + direction * 0.1f, Quaternion.identity);
         bullet.GetComponent<BulletPro>().SetDirection(direction);
 
-        Energia -= gastoEsp;
+        if(IsEnerInfi == false){
+            Energia -= gastoEsp;
+        }
 
-        if(Energia <= 1){
+        if (Energia <= 1)
+        {
             EneSlider.value = Energia;
         }
-        
+
     }
 
-    public void AumentoVida(){
+    public void AumentoVida()
+    {
         Vida += AumVida;
         VidaSlider.value = Vida;
         Debug.Log(Vida);
     }
 
-    public void AumentoEner(){
+    public void AumentoEner()
+    {
         Energia += AumEne;
         EneSlider.value = Energia;
+    }
+
+    public void EnerInfi()
+    {
+        if (IsEnerInfi == false)
+        {
+            IsEnerInfi = true;
+            IniEnerInfi = Time.time;
+        }
+        else
+        {
+            TempEnerInfiNet += TempEnerInfi;
+        }
     }
 
 }
