@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 500958131396631458}
   - component: {fileID: 1789547158807335265}
   - component: {fileID: 8395214453878316054}
+  - component: {fileID: 7527446907828412129}
   m_Layer: 0
   m_Name: OrbeCyan
   m_TagString: Untagged
@@ -119,3 +120,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.16
+--- !u!114 &7527446907828412129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208943839067462852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec51a55483613046937f5e7b66bea04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Morado : MonoBehaviour
+public class Cyan : MonoBehaviour
 {
-
     public void DestroyBuff(){
         Destroy(gameObject);
     }
@@ -14,7 +13,7 @@ public class Morado : MonoBehaviour
 
         if (Daven != null)
         {
-            Daven.AumentoVida();
+            Daven.EnerInfi();
             DestroyBuff();
         }
     }

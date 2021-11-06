@@ -10,7 +10,7 @@ public class GameOverMenu : MonoBehaviour
     private string level=""; 
     void Start()
     {
-        level= Application.loadedLevelName;
+        level= SceneManager.GetActiveScene().name;
     }
 
     // Update is called once per frame

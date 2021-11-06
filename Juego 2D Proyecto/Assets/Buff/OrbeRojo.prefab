@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1379426460094794557}
   - component: {fileID: 8153331920473509703}
   - component: {fileID: 1032650563128537477}
+  - component: {fileID: -2341529053079431191}
   m_Layer: 0
   m_Name: OrbeRojo
   m_TagString: Untagged
@@ -119,3 +120,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.16
+--- !u!114 &-2341529053079431191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2732700267544220022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4813a48928f894d45988fcd304dc20a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

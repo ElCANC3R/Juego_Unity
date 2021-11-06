@@ -14,21 +14,38 @@ public class DeivenMove : MonoBehaviour
     private bool Grounded;
     private bool Golpe;
     private float LastShoot;
-    public Slider VidaSlider;
-    public float danoBullet = 0.1f;
-    public static bool muerto = false;
-    public Slider ExpSlider;
     public GameObject SpecialBulletPrefav;
     private float LastShootEsp;
 
-    // Variables de Buffs
+    // Variables de Vida y Experiencia
+    public Slider VidaSlider;
+    public float danoBullet = 0.1f;
+    public static bool muerto = false;
+    public Slider EneSlider;
+    public float gastoEsp = 0.3f;
 
+    // Variables de Buffs
     public float AumVida;
+
+    public float AumEne;
+
+    private bool IsEnerInfi = false;
+    private float IniEnerInfi;
+    public float TempEnerInfi;
+
+    private bool IsVel = false;
+    private float IniVel;
+    public float TempVel;
+    public int VelVelBuff;
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
+
+        VidaSlider.value = 1f;
+        EneSlider.value = 1f;
+
     }
 
     // Update is called once per frame
@@ -45,7 +62,7 @@ public class DeivenMove : MonoBehaviour
             LastShoot = Time.time;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && ExpSlider.value >= 0.3)
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && EneSlider.value >= 0.3 || Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && IsEnerInfi == true)
         {
             ShootEsp();
             LastShootEsp = Time.time;
@@ -65,6 +82,17 @@ public class DeivenMove : MonoBehaviour
         {
             Jump();
         }
+
+        if (Time.time >= IniEnerInfi + TempEnerInfi)
+        {
+            IsEnerInfi = false;
+        }
+
+        if (Time.time >= IniVel + TempVel)
+        {
+            IsVel = false;
+        }
+
     }
 
     private void Jump()
@@ -99,14 +127,25 @@ public class DeivenMove : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = new Vector2(Horizontal * 3, Rigidbody2D.velocity.y);
+        if (IsVel == true)
+        {
+            Rigidbody2D.velocity = new Vector2(Horizontal * VelVelBuff, Rigidbody2D.velocity.y);
+        }
+        else
+        {
+            Rigidbody2D.velocity = new Vector2(Horizontal * 3, Rigidbody2D.velocity.y);
+        }
+
+
 
     }
 
     public void DanoRecibido()
     {
         VidaSlider.value -= danoBullet;
+
         Animator.SetBool("Damage", true);
+
         if (VidaSlider.value <= 0)
         {
             muerto = true;
@@ -123,12 +162,37 @@ public class DeivenMove : MonoBehaviour
         GameObject bullet = Instantiate(SpecialBulletPrefav, transform.position + direction * 0.1f, Quaternion.identity);
         bullet.GetComponent<BulletPro>().SetDirection(direction);
 
-        ExpSlider.value -= 0.3f;
+        if (IsEnerInfi == false)
+        {
+            EneSlider.value -= gastoEsp;
+        }
+
     }
 
-    public void AumentoVida(){
+    public void AumentoVida()
+    {
         VidaSlider.value += AumVida;
-        Debug.Log(VidaSlider.value);
+    }
+
+    public void AumentoEner()
+    {
+        EneSlider.value = AumEne;
+    }
+
+    public void EnerInfi()
+    {
+
+        IsEnerInfi = true;
+        IniEnerInfi = Time.time;
+
+    }
+
+    public void SaltBuf()
+    {
+
+        IsVel = true;
+        IniVel = Time.time;
+
     }
 
 }
