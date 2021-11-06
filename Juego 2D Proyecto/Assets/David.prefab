@@ -130,6 +130,8 @@ MonoBehaviour:
   AumVida: 0.3
   AumEne: 0.3
   TempEnerInfi: 30
+  TempVel: 30
+  VelVelBuff: 6
 --- !u!95 &6603600233548240287
 Animator:
   serializedVersion: 3

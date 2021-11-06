@@ -22,19 +22,21 @@ public class DeivenMove : MonoBehaviour
     public float danoBullet = 0.1f;
     public static bool muerto = false;
     public Slider EneSlider;
-    private float Vida;
-    private float Energia;
     public float gastoEsp = 0.3f;
 
     // Variables de Buffs
     public float AumVida;
 
     public float AumEne;
-    
+
     private bool IsEnerInfi = false;
     private float IniEnerInfi;
     public float TempEnerInfi;
-    private float TempEnerInfiNet;
+
+    private bool IsVel = false;
+    private float IniVel;
+    public float TempVel;
+    public int VelVelBuff;
 
     void Start()
     {
@@ -43,10 +45,7 @@ public class DeivenMove : MonoBehaviour
 
         VidaSlider.value = 1f;
         EneSlider.value = 1f;
-        Vida = 1f;
-        Energia = 1f;
 
-        TempEnerInfiNet = TempEnerInfi;
     }
 
     // Update is called once per frame
@@ -63,7 +62,7 @@ public class DeivenMove : MonoBehaviour
             LastShoot = Time.time;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && Energia >= 0.3 || Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && IsEnerInfi == true)
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && EneSlider.value >= 0.3 || Input.GetKeyDown(KeyCode.Space) && Time.time > LastShootEsp + 5.0f && IsEnerInfi == true)
         {
             ShootEsp();
             LastShootEsp = Time.time;
@@ -84,9 +83,14 @@ public class DeivenMove : MonoBehaviour
             Jump();
         }
 
-        if(Time.time >= IniEnerInfi + TempEnerInfiNet){
+        if (Time.time >= IniEnerInfi + TempEnerInfi)
+        {
             IsEnerInfi = false;
-            TempEnerInfiNet = TempEnerInfi;
+        }
+
+        if (Time.time >= IniVel + TempVel)
+        {
+            IsVel = false;
         }
 
     }
@@ -123,18 +127,22 @@ public class DeivenMove : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = new Vector2(Horizontal * 3, Rigidbody2D.velocity.y);
+        if (IsVel == true)
+        {
+            Rigidbody2D.velocity = new Vector2(Horizontal * VelVelBuff, Rigidbody2D.velocity.y);
+        }
+        else
+        {
+            Rigidbody2D.velocity = new Vector2(Horizontal * 3, Rigidbody2D.velocity.y);
+        }
+
+
 
     }
 
     public void DanoRecibido()
     {
-        Vida -= danoBullet;
-
-        if (Vida <= 1)
-        {
-            VidaSlider.value = Vida;
-        }
+        VidaSlider.value -= danoBullet;
 
         Animator.SetBool("Damage", true);
 
@@ -154,41 +162,37 @@ public class DeivenMove : MonoBehaviour
         GameObject bullet = Instantiate(SpecialBulletPrefav, transform.position + direction * 0.1f, Quaternion.identity);
         bullet.GetComponent<BulletPro>().SetDirection(direction);
 
-        if(IsEnerInfi == false){
-            Energia -= gastoEsp;
-        }
-
-        if (Energia <= 1)
+        if (IsEnerInfi == false)
         {
-            EneSlider.value = Energia;
+            EneSlider.value -= gastoEsp;
         }
 
     }
 
     public void AumentoVida()
     {
-        Vida += AumVida;
-        VidaSlider.value = Vida;
-        Debug.Log(Vida);
+        VidaSlider.value += AumVida;
     }
 
     public void AumentoEner()
     {
-        Energia += AumEne;
-        EneSlider.value = Energia;
+        EneSlider.value = AumEne;
     }
 
     public void EnerInfi()
     {
-        if (IsEnerInfi == false)
-        {
-            IsEnerInfi = true;
-            IniEnerInfi = Time.time;
-        }
-        else
-        {
-            TempEnerInfiNet += TempEnerInfi;
-        }
+
+        IsEnerInfi = true;
+        IniEnerInfi = Time.time;
+
+    }
+
+    public void SaltBuf()
+    {
+
+        IsVel = true;
+        IniVel = Time.time;
+
     }
 
 }

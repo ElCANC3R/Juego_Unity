@@ -9599,6 +9599,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6603600233548240280, guid: d5dc0ecca29b2724586e5eeb99558ad9, type: 3}
+      propertyPath: EneSlider
+      value: 
+      objectReference: {fileID: 1195780199}
+    - target: {fileID: 6603600233548240280, guid: d5dc0ecca29b2724586e5eeb99558ad9, type: 3}
       propertyPath: ExpSlider
       value: 
       objectReference: {fileID: 1195780199}
