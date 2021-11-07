@@ -31,6 +31,7 @@ public class BulletPro : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         Ladron1Script ladron = other.GetComponent<Ladron1Script>();
+        Enemigo2 enemigo = other.GetComponent<Enemigo2>();
         BulletEnemigo bulletEnemigo = other.GetComponent<BulletEnemigo>();
 
         if (ladron != null)
@@ -45,6 +46,14 @@ public class BulletPro : MonoBehaviour
         else if (bulletEnemigo != null)
         {
             bulletEnemigo.DestroyBullet();
+        }
+        else if(enemigo != null){
+             enemigo.MatarInstaEspecial();
+             enemigos--;
+            if (enemigos == 0)
+            {
+                DestroyBullet();
+            }
         }
     }
 }

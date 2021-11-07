@@ -144,7 +144,7 @@ public class DeivenMove : MonoBehaviour
     {
         VidaSlider.value -= danoBullet;
 
-        Animator.SetBool("Damage", true);
+        Animator.SetTrigger("Damage");
 
         if (VidaSlider.value <= 0)
         {
