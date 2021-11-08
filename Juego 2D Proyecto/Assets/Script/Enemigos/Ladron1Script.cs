@@ -71,6 +71,11 @@ public class Ladron1Script : MonoBehaviour
         Vida -= 1;
         if (Vida <= 0)
         {
+            GameObject este = gameObject;
+            if (este.GetComponent<PasoPrimerNivelKLN>() != null)
+            {
+                este.GetComponent<PasoPrimerNivelKLN>().restar();
+            }
             Alea();
             Destroy(gameObject);
         }
@@ -78,6 +83,11 @@ public class Ladron1Script : MonoBehaviour
 
     public void MatarInstaEspecial()
     {
+        GameObject este = gameObject;
+        if (este.GetComponent<PasoPrimerNivelKLN>() != null)
+        {
+            este.GetComponent<PasoPrimerNivelKLN>().restar();
+        }
         Alea();
         Destroy(gameObject);
     }
@@ -90,19 +100,15 @@ public class Ladron1Script : MonoBehaviour
             {
                 case 1:
                     GameObject BuffMorado = Instantiate(Morado, transform.position + Vector3.down * 0.5f, Quaternion.identity);
-                    Debug.Log("Morado");
                     break;
                 case 2:
                     GameObject BuffCyan = Instantiate(Cyan, transform.position + Vector3.down * 0.5f, Quaternion.identity);
-                    Debug.Log("Cyan");
                     break;
                 case 3:
                     GameObject BuffVerde = Instantiate(Verde, transform.position + Vector3.down * 0.5f, Quaternion.identity);
-                    Debug.Log("Verde");
                     break;
                 case 4:
                     GameObject BuffRojo = Instantiate(Rojo, transform.position + Vector3.down * 0.5f, Quaternion.identity);
-                    Debug.Log("Rojo");
                     break;
             }
         }
