@@ -176,7 +176,7 @@ public class DeivenMove : MonoBehaviour
 
     public void AumentoEner()
     {
-        EneSlider.value = AumEne;
+        EneSlider.value += AumEne;
     }
 
     public void EnerInfi()

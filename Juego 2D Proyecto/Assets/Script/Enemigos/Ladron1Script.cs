@@ -6,6 +6,10 @@ public class Ladron1Script : MonoBehaviour
 {
     public GameObject Daven;
     public GameObject BulletEnemigo;
+    public GameObject Morado;
+    public GameObject Cyan;
+    public GameObject Verde;
+    public GameObject Rojo;
 
     private float LastShoot;
 
@@ -37,13 +41,13 @@ public class Ladron1Script : MonoBehaviour
         if (distance <= 4.0f && Time.time > LastShoot + 0.8f)
         {
             //left
-            if(Daven.transform.position.x < transform.position.x && transform.eulerAngles.y == 0)
+            if (Daven.transform.position.x < transform.position.x && transform.eulerAngles.y == 0)
             {
                 Shoot();
                 LastShoot = Time.time;
             }
             //right
-            if(Daven.transform.position.x > transform.position.x && transform.eulerAngles.y == 180)
+            if (Daven.transform.position.x > transform.position.x && transform.eulerAngles.y == 180)
             {
                 Shoot();
                 LastShoot = Time.time;
@@ -67,13 +71,41 @@ public class Ladron1Script : MonoBehaviour
         Vida -= 1;
         if (Vida <= 0)
         {
+            Alea();
             Destroy(gameObject);
         }
     }
 
     public void MatarInstaEspecial()
     {
+        Alea();
         Destroy(gameObject);
+    }
+
+    public void Alea()
+    {
+        if (Random.Range(1, 11) == 1)
+        {
+            switch (Random.Range(1, 5))
+            {
+                case 1:
+                    GameObject BuffMorado = Instantiate(Morado, transform.position + Vector3.down * 0.5f, Quaternion.identity);
+                    Debug.Log("Morado");
+                    break;
+                case 2:
+                    GameObject BuffCyan = Instantiate(Cyan, transform.position + Vector3.down * 0.5f, Quaternion.identity);
+                    Debug.Log("Cyan");
+                    break;
+                case 3:
+                    GameObject BuffVerde = Instantiate(Verde, transform.position + Vector3.down * 0.5f, Quaternion.identity);
+                    Debug.Log("Verde");
+                    break;
+                case 4:
+                    GameObject BuffRojo = Instantiate(Rojo, transform.position + Vector3.down * 0.5f, Quaternion.identity);
+                    Debug.Log("Rojo");
+                    break;
+            }
+        }
     }
 
 }

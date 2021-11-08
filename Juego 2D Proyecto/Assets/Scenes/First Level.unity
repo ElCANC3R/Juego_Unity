@@ -3054,6 +3054,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 42.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
 --- !u!4 &447510723 stripped
@@ -10414,6 +10422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ladron1
       objectReference: {fileID: 0}
+    - target: {fileID: 7166907139103689427, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: Daven
+      value: 
+      objectReference: {fileID: 1530204640}
     - target: {fileID: 8117397874332153665, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Mass
       value: 10
@@ -10445,6 +10457,10 @@ PrefabInstance:
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 92.66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
@@ -11496,6 +11512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ladron1
       objectReference: {fileID: 0}
+    - target: {fileID: 7166907139103689427, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: Daven
+      value: 
+      objectReference: {fileID: 1530204640}
     - target: {fileID: 8117397874332153665, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Mass
       value: 10
@@ -11539,6 +11559,10 @@ PrefabInstance:
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 70.14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
@@ -13758,6 +13782,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ladron1
       objectReference: {fileID: 0}
+    - target: {fileID: 7166907139103689427, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: Daven
+      value: 
+      objectReference: {fileID: 1530204640}
     - target: {fileID: 8117397874332153665, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Mass
       value: 10
@@ -13789,6 +13817,10 @@ PrefabInstance:
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 76.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
@@ -14966,6 +14998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ladron1
       objectReference: {fileID: 0}
+    - target: {fileID: 7166907139103689427, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: Daven
+      value: 
+      objectReference: {fileID: 1530204640}
     - target: {fileID: 8117397874332153665, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Mass
       value: 10
@@ -14997,6 +15033,14 @@ PrefabInstance:
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.56
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
@@ -16170,6 +16214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ladron1
       objectReference: {fileID: 0}
+    - target: {fileID: 7166907139103689427, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: Daven
+      value: 
+      objectReference: {fileID: 1530204640}
     - target: {fileID: 8117397874332153665, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Mass
       value: 10
@@ -16201,6 +16249,14 @@ PrefabInstance:
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.48
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
@@ -18520,7 +18576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.79
+      value: 5.19
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_LocalPosition.y

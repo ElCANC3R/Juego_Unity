@@ -188,6 +188,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Daven: {fileID: 0}
   BulletEnemigo: {fileID: 4529407077345355981, guid: 4dfa3f2b07d660443b117ab72e63f101, type: 3}
+  Morado: {fileID: 4425009307468407573, guid: c2bafdb09d0311845a69d666949d52db, type: 3}
+  Cyan: {fileID: 1208943839067462852, guid: 9bc74a78968f6eb448f39259e19cfb00, type: 3}
+  Verde: {fileID: 173255560887882333, guid: 8cdb87efd2878b048ada0f871c314465, type: 3}
+  Rojo: {fileID: 2732700267544220022, guid: 515e885f584e38641b5278da17319ebb, type: 3}
   Vida: 5
 --- !u!114 &9072759708831327940
 MonoBehaviour:
