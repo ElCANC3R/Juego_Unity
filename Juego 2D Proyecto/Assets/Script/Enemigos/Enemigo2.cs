@@ -23,6 +23,9 @@ public class Enemigo2 : MonoBehaviour
 
     public int Vida = 10;
 
+    public Transform Hitbox;
+    private bool attack;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -40,57 +43,53 @@ public class Enemigo2 : MonoBehaviour
 
         //patrol
         if (Vida>0){
-         transform.Translate(Vector2.left * speed *Time.deltaTime);
-     RaycastHit2D groundInfo = Physics2D.Raycast(groundDeteccion.position,Vector2.down,distanceP);
-     if(groundInfo.collider == false){
-         if(movingRight == true){
-            transform.eulerAngles = new Vector3(0,-180,0);
-            movingRight = false;
-         }else{
-            transform.eulerAngles = new Vector3(0,0,0);
-            movingRight = true; 
-         }
-     } 
+            if(attack == true){
+                transform.Translate(Vector2.left * 0 *Time.deltaTime);
+            }else{
+                transform.Translate(Vector2.left * speed *Time.deltaTime);
+            }
+            
+            RaycastHit2D groundInfo = Physics2D.Raycast(groundDeteccion.position,Vector2.down,distanceP);
+            if(groundInfo.collider == false){
+                if(movingRight == true){
+                    transform.eulerAngles = new Vector3(0,-180,0);
+                    movingRight = false;
+                }else{
+                    transform.eulerAngles = new Vector3(0,0,0);
+                    movingRight = true; 
+                }
+            } 
         }
         else{
             transform.Translate(Vector2.left * 0 *Time.deltaTime);
-             tiempo += Time.deltaTime;
-             if(tiempo > Atime) Muerto();
-        }
-     //           
+            tiempo += Time.deltaTime;
+            if(tiempo > Atime) Muerto();
+        }  
 
-        
-        Vector3 direction = Daven.transform.position - transform.position;
+    }
 
-
-        float distance = Mathf.Abs(Daven.transform.position.x - transform.position.x);
-
-        if (distance <= 4.0f && Time.time > LastShoot + 0.8f && Vida >0)
+    private void OnTriggerEnter2D(Collider2D other) {
+        //Attack
+        DeivenMove Daven = other.GetComponent<DeivenMove>();
+        if (Daven != null && Vida >0)
         {
-            //left
-            if(Daven.transform.position.x < transform.position.x && transform.eulerAngles.y == 0)
-            {
-                Shoot();
+            Animator.SetBool("Attack", true);
+            if (Time.time > LastShoot + 0.4f){
+                Daven.DanoRecibido();
                 LastShoot = Time.time;
             }
-            //right
-            if(Daven.transform.position.x > transform.position.x && transform.eulerAngles.y == 180)
-            {
-                Shoot();
-                LastShoot = Time.time;
-            }
+            attack = true;
         }
     }
 
-    private void Shoot()
-    {
-        Vector3 direction;
-        //Rotation
-        if (transform.eulerAngles.y == 180) direction = Vector3.right;
-        else direction = Vector3.left;
-
-        GameObject bullet = Instantiate(BulletEnemigo, transform.position + direction * 0.3f, Quaternion.identity);
-        bullet.GetComponent<BulletEnemigo>().SetDirection(direction);
+    private void OnTriggerExit2D(Collider2D other) {
+        //Attack
+        DeivenMove Daven = other.GetComponent<DeivenMove>();
+        if (Daven != null && Vida >0)
+        {
+            Animator.SetBool("Attack", false);
+            attack = false;
+        }
     }
 
     public void DanoRecibidoLadron1()
@@ -104,7 +103,7 @@ public class Enemigo2 : MonoBehaviour
 
     public void MatarInstaEspecial()
     {
-           Vida -= 5;
+        Vida -= 5;
         if(Vida<0 && cont==1){
             cont=0;
             Animacion();
@@ -112,12 +111,11 @@ public class Enemigo2 : MonoBehaviour
     }
 
     public void Animacion(){
-            //GetComponent<Collider2D>().enabled = false;
-            Animator.SetTrigger("Death");               
+        //GetComponent<Collider2D>().enabled = false;
+        Animator.SetTrigger("Death");               
     }
 
     public void Muerto(){
-        
-         Destroy(gameObject);
+        Destroy(gameObject);
     }
 }
