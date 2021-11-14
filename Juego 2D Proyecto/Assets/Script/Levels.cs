@@ -29,7 +29,6 @@ public class Levels : MonoBehaviour
             nivelesDesbloqueados = nivelActual;
             nivelActual++;
         }
-        cargaNivel("Menu");
     }
 
     public void actualizarBotones(){
