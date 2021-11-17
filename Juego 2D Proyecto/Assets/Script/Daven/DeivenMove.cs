@@ -68,6 +68,8 @@ public class DeivenMove : MonoBehaviour
             LastShootEsp = Time.time;
         }
 
+
+
         if (Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
         else if (Horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
 
@@ -143,6 +145,19 @@ public class DeivenMove : MonoBehaviour
     public void DanoRecibido()
     {
         VidaSlider.value -= danoBullet;
+
+        Animator.SetTrigger("Damage");
+
+        if (VidaSlider.value <= 0)
+        {
+            muerto = true;
+            Destroy(gameObject);
+        }
+    }
+
+    public void DanoRecibido2()
+    {
+        VidaSlider.value -= 0.25f;
 
         Animator.SetTrigger("Damage");
 

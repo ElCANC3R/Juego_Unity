@@ -76,6 +76,10 @@ public class Ladron1Script : MonoBehaviour
             {
                 este.GetComponent<PasoPrimerNivelKLN>().restar();
             }
+            if (este.GetComponent<GanasteKalan>() != null)
+            {
+                este.GetComponent<GanasteKalan>().restar();
+            }
             Alea();
             Destroy(gameObject);
         }
@@ -87,6 +91,10 @@ public class Ladron1Script : MonoBehaviour
         if (este.GetComponent<PasoPrimerNivelKLN>() != null)
         {
             este.GetComponent<PasoPrimerNivelKLN>().restar();
+        }
+        if (este.GetComponent<GanasteKalan>() != null)
+        {
+            este.GetComponent<GanasteKalan>().restar();
         }
         Alea();
         Destroy(gameObject);

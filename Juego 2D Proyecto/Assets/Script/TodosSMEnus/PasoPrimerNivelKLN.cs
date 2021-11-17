@@ -14,7 +14,7 @@ public class PasoPrimerNivelKLN : MonoBehaviour
         Enemigos--;
         if (Enemigos == 0)
         {
-            GameObject BuffMorado = Instantiate(Paso, transform.position, Quaternion.identity);
+            GameObject Celular = Instantiate(Paso, transform.position, Quaternion.identity);
         }
         else
         {

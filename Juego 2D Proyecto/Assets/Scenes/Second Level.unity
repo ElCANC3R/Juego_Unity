@@ -258,11 +258,11 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (1)
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -306,6 +306,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &13159237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 13159236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &13159238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13159237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &23972910
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +485,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &107386866
 GameObject:
@@ -601,7 +634,7 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (10)
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
@@ -649,6 +682,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &111620564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 111620563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &111620565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111620564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &132214647
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,8 +759,9 @@ GameObject:
   - component: {fileID: 139577359}
   - component: {fileID: 139577360}
   - component: {fileID: 139577361}
+  - component: {fileID: 139577358}
   m_Layer: 0
-  m_Name: Enemigo_run_0
+  m_Name: 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -785,6 +852,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &139577358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139577354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!60 &139577359
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1311,11 +1406,11 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (4)
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1359,6 +1454,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &316667325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 316667324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &316667326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316667325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1001 &374208654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1372,11 +1500,11 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (6)
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1420,6 +1548,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &374208655 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 374208654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &374208656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374208655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &375261317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,7 +1894,7 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (5)
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
@@ -1781,6 +1942,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &439038055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 439038054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &439038056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439038055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &439823181
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,7 +2063,7 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (7)
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
@@ -1917,6 +2111,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &487872713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 487872712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &487872714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487872713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &548559025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,7 +2225,7 @@ Transform:
   m_Children:
   - {fileID: 733059346}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &572773400
 GameObject:
@@ -9745,7 +9972,7 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
@@ -9793,6 +10020,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &688834620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 688834619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &688834621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688834620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1001 &731887702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9806,7 +10066,7 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (9)
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
@@ -9854,6 +10114,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &731887703 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 731887702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &731887704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731887703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &733059345
 GameObject:
   m_ObjectHideFlags: 0
@@ -10033,7 +10326,7 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (11)
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
@@ -10081,6 +10374,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &805878254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 805878253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &805878255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805878254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &831795423
 GameObject:
   m_ObjectHideFlags: 0
@@ -10472,7 +10798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b1dfff3607ca88f4f95c5ed080b81124, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 171a9cfe91e0a5e42b379b80c8958bde, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10503,11 +10829,11 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (2)
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10551,6 +10877,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &989520488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 989520487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &989520489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989520488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1001 &1008753375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10755,11 +11114,11 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (3)
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10803,6 +11162,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &1133537039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 1133537038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1133537040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133537039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1001 &1153482114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10816,7 +11208,7 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (13)
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
@@ -10864,6 +11256,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &1153482115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 1153482114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1153482116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153482115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &1153651641
 GameObject:
   m_ObjectHideFlags: 0
@@ -11032,7 +11457,7 @@ Transform:
   - {fileID: 2090844115}
   - {fileID: 1433094495}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1315472544
 GameObject:
@@ -11115,7 +11540,7 @@ Transform:
   m_Children:
   - {fileID: 1988314031}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1370375903
 GameObject:
@@ -11174,7 +11599,7 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (12)
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
@@ -11222,6 +11647,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &1387177719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 1387177718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1387177720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387177719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 2016171667}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &1433094493
 GameObject:
   m_ObjectHideFlags: 0
@@ -11506,7 +11964,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: 78.795}
+  m_AnchoredPosition: {x: 0, y: 78.795}
   m_SizeDelta: {x: -616.8705, y: -248.2025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1478252332
@@ -12669,7 +13127,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1774218593
 MonoBehaviour:
@@ -13231,7 +13689,7 @@ Transform:
   - {fileID: 1559806271}
   - {fileID: 248084181}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1982928877
 GameObject:
@@ -13444,11 +13902,11 @@ PrefabInstance:
       objectReference: {fileID: 1740667101}
     - target: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_Name
-      value: Ladron1 (8)
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 9072759708831327943, guid: c825329d184f59948b395f546a98483e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13492,6 +13950,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
+--- !u!1 &2016171667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
+  m_PrefabInstance: {fileID: 2016171666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2016171668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016171667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 688834620}
+  - {fileID: 13159237}
+  - {fileID: 989520488}
+  - {fileID: 1133537039}
+  - {fileID: 316667325}
+  - {fileID: 439038055}
+  - {fileID: 374208655}
+  - {fileID: 487872713}
+  - {fileID: 731887703}
+  - {fileID: 111620564}
+  - {fileID: 805878254}
+  - {fileID: 1387177719}
+  - {fileID: 1153482115}
+  - {fileID: 139577354}
+  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &2020530833
 GameObject:
   m_ObjectHideFlags: 0

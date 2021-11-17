@@ -49,11 +49,7 @@ public class BulletPro : MonoBehaviour
         }
         else if(enemigo != null){
              enemigo.MatarInstaEspecial();
-             enemigos--;
-            if (enemigos == 0)
-            {
-                DestroyBullet();
-            }
+             DestroyBullet();
         }
     }
 }
