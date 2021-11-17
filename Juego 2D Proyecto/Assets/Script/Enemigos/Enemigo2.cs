@@ -98,6 +98,7 @@ public class Enemigo2 : MonoBehaviour
         if(Vida<0 && cont==1){
             cont=0;
             Animacion();
+            gameObject.GetComponent<GanasteKalan>().restar();
         }     
     }
 
@@ -107,6 +108,7 @@ public class Enemigo2 : MonoBehaviour
         if(Vida<0 && cont==1){
             cont=0;
             Animacion();
+            gameObject.GetComponent<GanasteKalan>().restar();
         }    
     }
 
@@ -117,5 +119,27 @@ public class Enemigo2 : MonoBehaviour
 
     public void Muerto(){
         Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        DeivenMove Daven = other.collider.GetComponent<DeivenMove>();
+        if (Daven != null && Vida >0)
+        {
+            Animator.SetBool("Attack", true);
+            if (Time.time > LastShoot + 0.4f){
+                Daven.DanoRecibido2();
+                LastShoot = Time.time;
+            }
+            attack = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other) {
+        DeivenMove Daven = other.collider.GetComponent<DeivenMove>();
+        if (Daven != null && Vida >0)
+        {
+            Animator.SetBool("Attack", false);
+            attack = false;
+        }
     }
 }
