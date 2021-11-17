@@ -19,7 +19,11 @@ public class GanasteKalan : MonoBehaviour
         noEnemigos--;
         if (noEnemigos == 0)
         {
-            GameObject Computadora = Instantiate(Paso, transform.position + Vector3.down * 0.5f, Quaternion.identity);
+            Vector3 nuevont = new Vector3();
+            nuevont.x = 115.507f;
+            nuevont.y = -0.525f;
+            nuevont.z = 0;
+            GameObject Computadora = Instantiate(Paso, nuevont, Quaternion.identity);
         }
         else
         {
