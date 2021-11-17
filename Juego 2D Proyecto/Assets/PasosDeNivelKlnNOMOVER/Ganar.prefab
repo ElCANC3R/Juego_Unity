@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6813676254418585551}
   - component: {fileID: 1234190555267305202}
   - component: {fileID: 8765073497561691948}
+  - component: {fileID: -8995414849660744904}
   m_Layer: 0
   m_Name: Ganar
   m_TagString: Untagged
@@ -113,7 +114,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -129,3 +130,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &-8995414849660744904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986772227954125503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013afa7fa89e1b341a135b9b785a9561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FelicitacionesKLN: {fileID: 3543622674746889049, guid: 5622fda9ad2c2074fb6a7eff14c96671, type: 3}

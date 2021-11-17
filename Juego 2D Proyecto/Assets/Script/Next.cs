@@ -17,23 +17,7 @@ public class Next : MonoBehaviour
       if(other.collider.CompareTag("Player")){
         levels.desbloquearNivel();
         load.SceneLoad();
-        //levels.volverMenu();
-        //SceneManager.LoadScene("Second Level",LoadSceneMode.Single);
  
       }
     }
-
-    /*ControlJuego controlJuego;
-     void Awake(){
-      controlJuego = GameObject.Find("ControlJuego").GetComponent (typeof(ControlJuego)) as ControlJuego;
-    }
-
-    private void OnCollisionEnter2D(Collision2D other){
-      if(other.collider.CompareTag("Player")){
-        //levels.desbloquearNivel();
-        controlJuego.irMenu();
-        //SceneManager.LoadScene("Second Level",LoadSceneMode.Single);
- 
-      }
-    }*/
 }
