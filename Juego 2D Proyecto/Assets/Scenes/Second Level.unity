@@ -306,39 +306,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &13159237 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 13159236}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &13159238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13159237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &23972910
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,39 +649,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &111620564 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 111620563}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &111620565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111620564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &132214647
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,20 +799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
+  - {fileID: 1062905881}
   Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!60 &139577359
 PolygonCollider2D:
@@ -1454,39 +1375,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &316667325 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 316667324}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &316667326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 316667325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1001 &374208654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1548,39 +1436,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &374208655 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 374208654}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &374208656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374208655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &375261317
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,39 +1872,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &487872713 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 487872712}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &487872714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487872713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &548559025
 GameObject:
   m_ObjectHideFlags: 0
@@ -9926,39 +9748,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &688834620 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 688834619}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &688834621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688834620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1001 &731887702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10020,39 +9809,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &731887703 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 731887702}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &731887704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 731887703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &733059345
 GameObject:
   m_ObjectHideFlags: 0
@@ -10689,39 +10445,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &989520488 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 989520487}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &989520489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989520488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1001 &1008753375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10948,20 +10671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
+  - {fileID: 139577354}
   Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!50 &1062905883
 Rigidbody2D:
@@ -11190,39 +10900,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &1133537039 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 1133537038}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1133537040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1133537039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1001 &1153482114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11284,39 +10961,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &1153482115 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 1153482114}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1153482116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153482115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 2016171667}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &1153651641
 GameObject:
   m_ObjectHideFlags: 0
@@ -11838,7 +11482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6603600233548240284, guid: d5dc0ecca29b2724586e5eeb99558ad9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4
+      value: -5.2
       objectReference: {fileID: 0}
     - target: {fileID: 6603600233548240284, guid: d5dc0ecca29b2724586e5eeb99558ad9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13914,39 +13558,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c825329d184f59948b395f546a98483e, type: 3}
---- !u!1 &2016171667 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9072759708831327942, guid: c825329d184f59948b395f546a98483e, type: 3}
-  m_PrefabInstance: {fileID: 2016171666}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2016171668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016171667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6722f3210a6f93a43ab082c25790656d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigos:
-  - {fileID: 688834620}
-  - {fileID: 13159237}
-  - {fileID: 989520488}
-  - {fileID: 1133537039}
-  - {fileID: 316667325}
-  - {fileID: 0}
-  - {fileID: 374208655}
-  - {fileID: 487872713}
-  - {fileID: 731887703}
-  - {fileID: 111620564}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1153482115}
-  - {fileID: 139577354}
-  Paso: {fileID: 1986772227954125503, guid: 7ff40bf10f90f4a45957ba612242c881, type: 3}
 --- !u!1 &2020530833
 GameObject:
   m_ObjectHideFlags: 0

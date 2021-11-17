@@ -95,7 +95,7 @@ public class Enemigo2 : MonoBehaviour
     public void DanoRecibidoLadron1()
     {
         Vida -= 1;
-        if(Vida<0 && cont==1){
+        if(Vida<=0 && cont==1){
             cont=0;
             Animacion();
             gameObject.GetComponent<GanasteKalan>().restar();
@@ -105,7 +105,7 @@ public class Enemigo2 : MonoBehaviour
     public void MatarInstaEspecial()
     {
         Vida -= 5;
-        if(Vida<0 && cont==1){
+        if(Vida<=0 && cont==1){
             cont=0;
             Animacion();
             gameObject.GetComponent<GanasteKalan>().restar();
